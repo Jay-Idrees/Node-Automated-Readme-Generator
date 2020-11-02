@@ -11,7 +11,7 @@ Full stack developer
 
 ## Contents
 
-[Technologies used] (## Technologies used)
+[Technologies used] (# Technologies used)
 
 
 ## Technologies used
