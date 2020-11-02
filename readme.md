@@ -1,12 +1,18 @@
-# Readme generator
+# Jay Idrees
 ## About the Project
+
 Developed with the skills I learnt at the bootcamp by the end of first week of coding boot camp experience at Columbia University, NY. Date of publication: 9/28/2020
 
 ## Contact Author
 
 Jay Idrees
 jidrees@live.com
-Full-Stack Web and Software Developer
+Full stack developer
+
+## Contents
+
+[Technologies used] (## Technologies used)
+
 
 ## Technologies used
 
@@ -14,10 +20,8 @@ Javascript,Node.js,Version control using Git Hub
 
 ## Files in the repository
 
-Index.js
-Readme
-generateMarkdown.js
-Pacjage.Jason
+
+hello
 
 
 ## Featured Programing skills
@@ -55,6 +59,6 @@ npm test
 
 
 ## Copyright 
-2020- Present, copyright Jay Idrees
+Jay Idrees
 
 
