@@ -134,12 +134,29 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
-}
+    fs.writeFile(fileName, data, function(error){
+        if (error){
+            return console.log(error)
+        } // br-close if statement in error function
+
+    }); // br-close eror function
+
+}; // br-close write file function
+
+
+
 
 // function to initialize program
 function init() {
+inquirer.prompt(questions).then(function(response){
+    console.log(response)
 
-}
+    // const markdown= generateMarkdown(response);
+    // console.log(markdown);
+
+    // writeToFile('readme.md', markdown)
+});
+};
 
 // function call to initialize program
 init();
