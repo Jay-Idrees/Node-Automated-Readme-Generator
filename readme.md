@@ -11,7 +11,14 @@ Full stack developer
 
 ## Contents
 
-[Technologies used] (# Technologies used)
+[Technologies used] (#Technologies used)
+[Files](#files)
+[Featured](#featured)
+[Installation](#installation)
+[Usage](#usage)
+[Testing](#testing)
+[License](#license)
+[Copyright](#copyright)
 
 
 ## Technologies used
