@@ -33,7 +33,7 @@ const questions = [
 
       {
         type: 'input',
-        name: 'e-mail', 
+        name: 'email', 
         message: 'Please enter the author e-mail',
       },
 
@@ -58,7 +58,7 @@ const questions = [
     {
         type: 'input',
         name: 'gh_username',
-        message: "Please enter your current username"
+        message: "Please enter your current Git-Hub username"
       },
 
     // Obtaining a list of files in this repository - using editor
@@ -129,12 +129,20 @@ const questions = [
 
 
     // Copy rights
+{
+    type: 'editor',
+    name: 'copyright',
+    message: 'Please enter information regarding copyright',
+
+}
 
 ];
 
 // function to write README file
 function writeToFile(fileName, data) {
+
     fs.writeFile(fileName, data, function(error){
+
         if (error){
             return console.log(error)
         } // br-close if statement in error function
@@ -148,13 +156,15 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
+
 inquirer.prompt(questions).then(function(response){
+
     console.log(response)
 
-    // const markdown= generateMarkdown(response);
-    // console.log(markdown);
+    const markdown= generateMarkdown(response);
+    console.log(markdown);
 
-    // writeToFile('readme.md', markdown)
+    writeToFile('readme.md', markdown)
 });
 };
 
