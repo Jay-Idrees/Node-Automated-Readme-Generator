@@ -1,19 +1,22 @@
-# Jay Idrees
-## About the Project
+# Node Readme Generator
 
-Developed with the skills I learnt at the bootcamp by the end of first week of coding boot camp experience at Columbia University, NY. Date of publication: 9/28/2020
+## About the Project
+This project is a command line interface (cli) app that prompts the user to answer a series of questions regarding a project and then generates a high quality readme file using Node.js. I developed this app during the third-fourth week of the coding bootcamp at Columbia University, NY. Date of publication: 11/01/2020
 
 ## Contact Author
 
-Jay Idrees
-jidrees@live.com
-Full stack developer
+Jay J. Idrees, MD, MPH+"
+"
+jidrees@live.com+"
+"
+Full-Stack Web and Software Developer
 
 ## Contents
 
-[Technologies used] (#Technologies used)
-[Files](#files)
-[Featured](#featured)
+[Technologies used](#technologies-used)
+[Key Files in repository](#files-in-repository)
+[Packages used](#packages-used)
+[Featured Programing Skills](#featured)
 [Installation](#installation)
 [Usage](#usage)
 [Testing](#testing)
@@ -23,15 +26,18 @@ Full stack developer
 
 ## Technologies used
 
-Javascript,Node.js,Version control using Git Hub
+Node.js,Javascript,Git/Bash-Version control
 
-## Files in the repository
+## Packages used
+
+Inquirer
+
+## Key Files in the repository
+
+index.js,script.js,readme.MD,generateMarkdown.js
 
 
-hello
-
-
-## Featured Programing skills
+## Featured Programing Skills
 
 undefined
 
@@ -66,6 +72,6 @@ npm test
 
 
 ## Copyright 
-Jay Idrees
+Copytight 2020- Present. Jay Idrees
 
 

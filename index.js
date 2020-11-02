@@ -3,6 +3,17 @@ const fs = require ('fs');
 const inquirer= require('inquirer');
 const generateMarkdown= require('./utils/generateMarkdown');
 
+
+function require_input(input_text){
+   if(input_text){
+     return true
+   }
+   return 'Please provide an answer, a response is required'
+}
+
+
+
+
 const questions = [
 
     // Obtaining Title- using plain input prompt
@@ -20,7 +31,7 @@ const questions = [
         type: 'editor',
         name: 'about_project',
         message: 'Please enter details about your project in the notepad',
-        default: 'Developed with the skills I learnt at the bootcamp by the end of first week of coding boot camp experience at Columbia University, NY. Date of publication: 9/28/2020'
+        default: 'This project is a command line interface (cli) app that prompts the user to answer a series of questions regarding a project and then generates a high quality readme file using Node.js. I developed this app during the third-fourth week of the coding bootcamp at Columbia University, NY. Date of publication: 11/01/2020'
       },
 
 
@@ -29,18 +40,21 @@ const questions = [
         type: 'input',
         name: 'author', // this is the name of the variable how the repsponse is stored
         message: 'Please enter the author name',
+        default:'Jay J. Idrees, MD, MPH'
       },
 
       {
         type: 'input',
         name: 'email', 
         message: 'Please enter the author e-mail',
+        default:'jidrees@live.com'
       },
 
       {
         type: 'input',
         name: 'author_position',
-        message: "Please enter the author's current position"
+        message: "Please enter the author's current position",
+        default:'Full-Stack Web and Software Developer'
       },
 
     // Obtaining information regarding the technologies Used in the project- using checkboxes
@@ -49,8 +63,18 @@ const questions = [
         type: 'checkbox',
         name: 'techs_used',
         message: 'Please check mark if any of the technologies were used in this project',
-        choices: ['HTML', 'CSS', ' Bootstrap', 'Javascript','Node.js', 'Express.js', 'Heroku', 'Version control using Git Hub', 'React.js','MySQL'],
+        choices: ['HTML', 'CSS', ' Bootstrap', 'Node.js', 'Javascript', 'jQuery','Express.js', 'Heroku', 'Git/Bash-Version control', 'React.js','MySQL'],
     },
+
+// Packages used
+    {
+      type: 'checkbox',
+      name: 'packages_used',
+      message: 'Please check mark if any of the following node packages were used in this project',
+      choices: ['Inquirer', 'Express', 'MySQL', 'Axios', 'Express-handlebar',],
+  },
+
+
 
 
     // Obtaining username for Linking to git hub repository - using plain input
@@ -58,17 +82,19 @@ const questions = [
     {
         type: 'input',
         name: 'gh_username',
-        message: "Please enter your current Git-Hub username"
+        message: "Please enter your current Git-Hub username",
+        default:'jidrees',
+        validate: require_input,
       },
 
     // Obtaining a list of files in this repository - using editor
 
     {
-        type: 'editor',
-        name: 'file_list',
-        message: 'Please enter the list of files in the note pad',
-    
-      },
+      type: 'checkbox',
+      name: 'file_list',
+      message: 'Please check mark if any of the following files were created in this project',
+      choices: ['index.html', 'server.js', 'index.js', 'style.css', 'script.js', 'readme.MD', 'generateMarkdown.js'],
+  },
 
 
 
@@ -77,7 +103,7 @@ const questions = [
     {
         type: 'editor',
         name: 'skil_list',
-        message: 'Please enter the list of files in the note pad',
+        message: 'Please highligt any programing fearutes or skills utilized in this project',
     
       },
 
@@ -133,6 +159,7 @@ const questions = [
     type: 'editor',
     name: 'copyright',
     message: 'Please enter information regarding copyright',
+    default:'Copytight 2020- Present. Jay Idrees'
 
 }
 
@@ -155,7 +182,7 @@ function writeToFile(fileName, data) {
 
 
 // function to initialize program
-function init() {
+function run() {
 
 inquirer.prompt(questions).then(function(response){
 
@@ -169,4 +196,4 @@ inquirer.prompt(questions).then(function(response){
 };
 
 // function call to initialize program
-init();
+run();

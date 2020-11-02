@@ -1,30 +1,43 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+
 ## About the Project
 ${data.about_project}
 
 ## Contact Author
 
-${data.author}
-${data.email}
+${data.author}+"\r\n"
+${data.email}+"\r\n"
 ${data.author_position}
 
 ## Contents
 
-[Technologies used] (## Technologies used)
+[Technologies used](#technologies-used)
+[Key Files in repository](#files-in-repository)
+[Packages used](#packages-used)
+[Featured Programing Skills](#featured)
+[Installation](#installation)
+[Usage](#usage)
+[Testing](#testing)
+[License](#license)
+[Copyright](#copyright)
 
 
 ## Technologies used
 
 ${data.techs_used}
 
-## Files in the repository
+## Packages used
+
+${data.packages_used}
+
+## Key Files in the repository
 
 ${data.file_list}
 
 
-## Featured Programing skills
+## Featured Programing Skills
 
 ${data.skill_set}
 
