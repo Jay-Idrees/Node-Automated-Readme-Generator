@@ -1,7 +1,7 @@
 // Dependencies
 const fs = require ('fs');
 const inquirer= require('inquirer');
-const generate_markdown= require('./utils/generateMarkdown');
+const generate_markdown= require('./utils/markdown');
 
 
 function require_input(input_text){
@@ -63,7 +63,7 @@ const questions = [
         type: 'checkbox',
         name: 'techs_used',
         message: 'Please check mark if any of the technologies were used in this project',
-        choices: ['HTML', 'CSS', ' Bootstrap', 'Node.js', 'Javascript', 'jQuery','Express.js', 'Heroku', 'Git/Bash-Version control', 'React.js','MySQL'],
+        choices: ['HTML', 'CSS', 'Bootstrap', 'Node.js', 'Javascript', 'jQuery','Express.js', 'Heroku', 'Git/Bash-Version control', 'React.js','MySQL'],
     },
 
 // Packages used
@@ -93,7 +93,7 @@ const questions = [
       type: 'checkbox',
       name: 'file_list',
       message: 'Please check mark if any of the following files were created in this project',
-      choices: ['index.html', 'server.js', 'index.js', 'style.css', 'script.js', 'readme.MD', 'generateMarkdown.js'],
+      choices: ['index.html', 'server.js', 'index.js', 'style.css', 'script.js', 'readme.md', 'markdown.js'],
   },
 
 
@@ -102,10 +102,9 @@ const questions = [
 
     {
         type: 'editor',
-        name: 'skil_list',
-        message: 'Please highligt any programing features or skills utilized in this project',
+        name: 'skills_list',
+        message: 'Please highlight any programing features or skills utilized in this project',
       
-    
       },
 
     // Installation 
@@ -157,7 +156,7 @@ const questions = [
 
     // Copy rights
 {
-    type: 'editor',
+    type: 'input',
     name: 'copyright',
     message: 'Please enter information regarding copyright',
     default:'Copytight 2020- Present. Jay Idrees'
