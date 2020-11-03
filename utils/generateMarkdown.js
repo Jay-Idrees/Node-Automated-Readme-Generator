@@ -16,7 +16,7 @@ ${data.author_position}
 [Technologies used](#technologies-used)
 [Key Files in the repository](#key-files-in-the-repository)
 [Packages used](#packages-used)
-[Programing Competencies](#programming-competencies)
+[Programming Competencies](#programming competencies)
 [Installation](#installation)
 [Usage](#usage)
 [Testing](#testing)
@@ -37,7 +37,7 @@ ${data.packages_used}
 ${data.file_list}
 
 
-## Programing Competencies
+## Programming Competencies
 
 ${data.skill_set}
 
