@@ -1,22 +1,22 @@
 // function to generate markdown for README
-function generateMarkdown(data) {
+function generate_markdown(data) {
   return `# ${data.title}
 
 ## About the Project
 ${data.about_project}
 
-## Contact Author
+## Contact Programmer
 
-${data.author}+"\r\n"
-${data.email}+"\r\n"
+${data.programmer}
+${data.email}
 ${data.author_position}
 
 ## Contents
 
 [Technologies used](#technologies-used)
-[Key Files in repository](#files-in-repository)
+[Key Files in the repository](#key-files-in-the-repository)
 [Packages used](#packages-used)
-[Featured Programing Skills](#featured)
+[Programing Compentencies](#programming-compentencies)
 [Installation](#installation)
 [Usage](#usage)
 [Testing](#testing)
@@ -37,7 +37,7 @@ ${data.packages_used}
 ${data.file_list}
 
 
-## Featured Programing Skills
+## Programing Competencies
 
 ${data.skill_set}
 
@@ -78,4 +78,4 @@ ${data.copyright}
 `;
 }
 
-module.exports = generateMarkdown;
+module.exports = generate_markdown;

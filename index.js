@@ -1,7 +1,7 @@
 // Dependencies
 const fs = require ('fs');
 const inquirer= require('inquirer');
-const generateMarkdown= require('./utils/generateMarkdown');
+const generate_markdown= require('./utils/generateMarkdown');
 
 
 function require_input(input_text){
@@ -31,22 +31,22 @@ const questions = [
         type: 'editor',
         name: 'about_project',
         message: 'Please enter details about your project in the notepad',
-        default: 'This project is a command line interface (cli) app that prompts the user to answer a series of questions regarding a project and then generates a high quality readme file using Node.js. I developed this app during the third-fourth week of the coding bootcamp at Columbia University, NY. Date of publication: 11/01/2020'
+        default: 'This project is a command line interface application that prompts the user to answer a series of brief questions, regarding a project and then generates a high quality readme file using Node.js and using the package inquirer. I developed this application during the third week of the coding bootcamp experience at Columbia University, NY. Date of publication: 11/01/2020'
       },
 
 
     // Obtaining author Contact information- using plain input
     {
         type: 'input',
-        name: 'author', // this is the name of the variable how the repsponse is stored
-        message: 'Please enter the author name',
+        name: 'programmer', // this is the name of the variable how the repsponse is stored
+        message: "Please enter the programmer's name",
         default:'Jay J. Idrees, MD, MPH'
       },
 
       {
         type: 'input',
         name: 'email', 
-        message: 'Please enter the author e-mail',
+        message: "Please enter the author's e-mail",
         default:'jidrees@live.com'
       },
 
@@ -103,7 +103,8 @@ const questions = [
     {
         type: 'editor',
         name: 'skil_list',
-        message: 'Please highligt any programing fearutes or skills utilized in this project',
+        message: 'Please highligt any programing features or skills utilized in this project',
+      
     
       },
 
@@ -166,9 +167,11 @@ const questions = [
 ];
 
 // function to write README file
-function writeToFile(fileName, data) {
-
-    fs.writeFile(fileName, data, function(error){
+// Notice that the write_file function has 2 parameters that will take a file name and data
+//?Ben what is data referring the here? The name of the object variable is questions. Do we even need this function? as the write file command has the same parameters as the write_file function
+function write_file(file_name, data) {
+// 
+    fs.writeFile(file_name, data, function(error){
 
         if (error){
             return console.log(error)
@@ -188,10 +191,11 @@ inquirer.prompt(questions).then(function(response){
 
     console.log(response)
 
-    const markdown= generateMarkdown(response);
+    const markdown= generate_markdown(response);
     console.log(markdown);
 
-    writeToFile('readme.md', markdown)
+    // Note that the arguments passed out here for the parameters file_name and data are 'readme.md' and the markdown variable which is infact a generateMarkdown function
+    write_file('readme.md', markdown)
 });
 };
 

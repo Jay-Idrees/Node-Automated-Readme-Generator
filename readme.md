@@ -1,22 +1,21 @@
-# Node Readme Generator
+# Node Automated Readme Generator
 
 ## About the Project
-This project is a command line interface (cli) app that prompts the user to answer a series of questions regarding a project and then generates a high quality readme file using Node.js. I developed this app during the third-fourth week of the coding bootcamp at Columbia University, NY. Date of publication: 11/01/2020
 
-## Contact Author
+This project is a command line interface application that prompts the user to answer a series of brief questions, regarding a project and then generates a high quality readme file using Node.js and using the package inquirer. I developed this application during the third week of the coding bootcamp experience at Columbia University, NY. Date of publication: 11/01/2020
 
-Jay J. Idrees, MD, MPH+"
-"
-jidrees@live.com+"
-"
+## Contact Programmer
+
+Jay J. Idrees, MD, MPH
+jidrees@live.com
 Full-Stack Web and Software Developer
 
 ## Contents
 
 [Technologies used](#technologies-used)
-[Key Files in repository](#files-in-repository)
+[Key Files in the repository](#key-files-in-the-repository)
 [Packages used](#packages-used)
-[Featured Programing Skills](#featured)
+[Programing Compentencies](#programming-compentencies)
 [Installation](#installation)
 [Usage](#usage)
 [Testing](#testing)
@@ -34,10 +33,10 @@ Inquirer
 
 ## Key Files in the repository
 
-index.js,script.js,readme.MD,generateMarkdown.js
+index.js,readme.MD,generateMarkdown.js
 
 
-## Featured Programing Skills
+## Programing Competencies
 
 undefined
 
