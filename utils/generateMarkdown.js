@@ -16,7 +16,7 @@ ${data.author_position}
 [Technologies used](#technologies-used)
 [Key Files in the repository](#key-files-in-the-repository)
 [Packages used](#packages-used)
-[Programming Competencies](#programming competencies)
+[Programming Competencies](#programming-competencies)
 [Installation](#installation)
 [Usage](#usage)
 [Testing](#testing)
