@@ -93,6 +93,11 @@ const questions = [
         'MySQL', 
         'Axios', 
         'Express-handlebar',
+        'Sequelize',
+        'Passport/Passport Local',
+        'Mongoose',
+        'Webpack',
+        
       
       ],
   },
