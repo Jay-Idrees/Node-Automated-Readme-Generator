@@ -20,7 +20,7 @@ const questions = [
 
     {
         type: 'input',
-        name: 'title', // this is the name of the variable how the repsponse is stored
+        name: 'title', // this is the name of the variable where the repsponse is stored
         message: 'Please enter the project name',
       },
 
@@ -63,7 +63,23 @@ const questions = [
         type: 'checkbox',
         name: 'techs_used',
         message: 'Please check mark if any of the technologies were used in this project',
-        choices: ['HTML', 'CSS', 'Bootstrap', 'Node.js', 'Javascript', 'jQuery','Express.js', 'Heroku', 'Git/Bash-Version control', 'React.js','MySQL'],
+        choices: [
+        'HTML', 
+        'CSS', 
+        'Bootstrap', 
+        'Node.js', 
+        'Javascript', 
+        'jQuery',
+        'React.js',
+        'Express.js', 
+        'Heroku', 
+        'Git/Bash-Version control', 
+        'Mongo DB',
+        'MySQL',
+        'Index DB',
+
+        
+      ],
     },
 
 // Packages used
@@ -71,7 +87,14 @@ const questions = [
       type: 'checkbox',
       name: 'packages_used',
       message: 'Please check mark if any of the following node packages were used in this project',
-      choices: ['Inquirer', 'Express', 'MySQL', 'Axios', 'Express-handlebar',],
+      choices: [
+        'Inquirer', 
+        'Express', 
+        'MySQL', 
+        'Axios', 
+        'Express-handlebar',
+      
+      ],
   },
 
 
@@ -104,6 +127,7 @@ const questions = [
         type: 'editor',
         name: 'skills_list',
         message: 'Please highlight any programing features or skills utilized in this project',
+        default:'This project demonstrates command over the following programing skills: '
       
       },
 
