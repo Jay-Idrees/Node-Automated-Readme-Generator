@@ -29,7 +29,32 @@ jidrees@live.com
 
 ## Technologies used
 
-![Javascript Badge](https://img.shields.io/badge/JavaScript-black?style=for-the-badge&logo=JavaScript)
+![Javascript](https://img.shields.io/badge/JavaScript-black?style=for-the-badge&logo=JavaScript)
+
+![Bootstrap](https://img.shields.io/badge/Bootstrap-blueviolet?style=for-the-badge&logo=bootstrap)
+
+![Node](https://img.shields.io/badge/Node-green?style=for-the-badge&logo=Node.js)
+
+![HTML](https://img.shields.io/badge/HTML-informational?style=for-the-badge&logo=html5)
+
+![JQUERY](https://img.shields.io/badge/jquery-purple?style=for-the-badge&logo=jquery)
+
+![CSS](https://img.shields.io/badge/css-darkgreen?style=for-the-badge&logo=css3)
+
+![SQL](https://img.shields.io/badge/MYSQL-darkblue?style=for-the-badge&logo=sqlite)
+
+![MongoDB](http://img.shields.io/badge/mongo-dB-black?style=for-the-badge&logo=mongodb)
+
+![NPM](http://img.shields.io/badge/npm-yellow?style=for-the-badge&logo=NPM)
+
+![React](http://img.shields.io/badge/React-black?style=for-the-badge&logo=react)
+
+![Heroku](http://img.shields.io/badge/Heroku-purple?style=for-the-badge&logo=heroku)
+
+![webpack](http://img.shields.io/badge/webpack-grey?style=for-the-badge&logo=webpack)
+
+![EXPRESS.js](http://img.shields.io/badge/express-JS-yellow?style=for-the-badge&logo=experts-exchange)
+
 
 ## Packages used
 
