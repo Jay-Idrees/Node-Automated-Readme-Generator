@@ -7,8 +7,8 @@ This project is a command line interface application that prompts the user to an
 
 Jay J. Idrees, MD, MPH<br />
 Full-Stack Software Engineer<br />
-[jidrees](https://github.com/jidrees)<br />
-jidrees@live.com
+![Github](http://img.shields.io/badge/github-black?style=for-the-badge&logo=github)[jidrees](https://github.com/jidrees)<br />
+Email: jidrees@live.com
 
 
 
