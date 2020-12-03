@@ -1,22 +1,16 @@
-# Code Refacor using Semantic Tags
+# Node Automated Readme Generator
 
 ## About the Project
-This project is about demonstration of refactoring code in HTML and CSS using semantic tags.
-I refactored this webpage during the first week of my coding boot camp experience at Columbia University, NY, USA. Date of publication: 9/25/2020.
+This project is a command line interface application that prompts the user to answer a series of brief questions, regarding a project and then generates a high quality readme file using Node.js and using the package inquirer. I developed this application during the third week of the coding bootcamp experience at Columbia University, NY. Date of publication: 11/01/2020
 
--![Link to the Refactored Webpage](http://img.shields.io/badge/github-black?style=flat&logo=github)<br />
-
-jidrees@live.cominary company Horiseon, which conducts SEO (Search Engine Optimization) operations. SEO is a process of improving the quality and quantity of user traffic to a website from search engines.
-If interested in learning more about SEO, please refer to the link below for addition details: https://en.wikipedia.org/wiki/Search_engine_optimization
-
-
+[Watch a demonstration of the app functionality](https://youtu.be/y7a85lrwrMw)
 
 ## Contact Programmer for questions
 
 Jay J. Idrees, MD, MPH<br />
 Full-Stack Software Engineer<br />
 [JIDREES](https://github.com/jidrees) ![Github](http://img.shields.io/badge/github-black?style=flat&logo=github)<br />
-jidrees@live.com
+Email:jidrees@live.com <br />
 
 
 
@@ -36,71 +30,82 @@ jidrees@live.com
 
 ## User Story
 
-I am a professional web developer who often collaborates with teams of software engineers. For effective communication and easy readibility for fellow team members, I would like to write code in a standardized fashion that is effectively commented and utilizes semantic tags for easy readibility
+I am a developler and I would like an app that can simplify the process of generating a high quality readme.
 
 
 
 ## Technologies used
 
-![HTML](https://img.shields.io/badge/HTML-informational?style=for-the-badge&logo=html5)
-
-![CSS](https://img.shields.io/badge/css-darkgreen?style=for-the-badge&logo=css3)
+![Javascript](https://img.shields.io/badge/JavaScript-black?style=for-the-badge&logo=JavaScript)
 
 ![Node](https://img.shields.io/badge/Node-green?style=for-the-badge&logo=Node.js)
+
+![NPM](http://img.shields.io/badge/npm-yellow?style=for-the-badge&logo=NPM)
 
 
 ## Packages used
 
-None
-
+Inquirer
 
 ## Applied Programming Skills
 
 This project demonstrates command over the following programing skills: 
-Command over building websites using semantic HTML and CSS.
 
-- Implementing best practices in structuring code in HTML using nested elements.
+- Using command terminal and the Node NPM package Inquirer to generate an automated readme file. 
 
-- Implementing CSS styling via Class and elemental selectors.
+- Using gitignore to prevent node modules from being uploaded into the git repository.
 
-- Linking external files to HTML in the Head. 
+- Creating table of contents in the readme file using a markdown function.
 
-- Using <style> tags in HTML head, and distinguising from other methods including linking a separate style sheet vs <link> in html or modifying HTML directly by specifying styling for an HTML element inside an html tag 
+- Customizing tags for licenses and technologies in a readme.
 
-- Implementing the box model in HTML for each element (nested or otherwise).
+- Understanding the various forms of inputs available via inquirer.
 
-- Masterning Manipulation of cascading style architechure in CSS for website asthetics.
+- Notice how the index.js file utilized a variety of prompt options for data input including 'input' 'checkbox' 'expandable choices' 'list' 'editor box' and 'password'
 
-- Creating new classes for customized styling and calling them in HTML
+- Notice the use of "default" values as starting text for a quick modifiation of a readme file and "validate" to check that the user inputs a value.
 
-- Implementing version control by using Git workflow to initialize projects, track changes and host via remote server
+- Demonstrates understanding regarding initilaiztion with npm init specifying web and developer dependencies in package.jason
 
-- Deploying live pages in Git Hub with firm command over utilizing Master/Branch repository systems.
+- Demonstrates understanding about the npm commands for installation of packages, testing and running the application
+Skills in pseudocoding.
 
-- Using Git/Bash for navigation, deployment in the terminal.
+- Application concepts regarding template literals and string-interpolation.
+Using git for version control.
+
+- Writing a readme file using Node.js.
+
+
 
 ## Key files in the repository
 
-index.html <br />
-style.css
+index.js
 
 
 ## Installation
 
-Note indicated
+For installation of the dependencies, please run the following command in the terminal
+
+```
+npm install
+```
 
 ## Usage
 
 To start the application, please type the following command in the terminal
 
 ```
-Please visit this web link: https://jidrees.github.io/hw1-code-refactor/
+node index
 ```
 
 
 ## Testing
 
-Not indicated
+For running the tests on application, please run the following commad
+
+```
+npm test
+```
 
 
 ## License 
