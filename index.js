@@ -22,6 +22,7 @@ const questions = [
         type: 'input',
         name: 'title', // this is the name of the variable where the repsponse is stored
         message: 'Please enter the project name',
+        default:'Node Automated Readme Generator'
       },
 
 
