@@ -13,15 +13,15 @@ ${data.author_position}
 
 ## Contents
 
--[Technologies used](#technologies-used)
--[Key files in the repository](#key-files-in-the-repository)
--[Packages used](#packages-used)
--[Programming Competencies](#programming-competencies)
--[Installation](#installation)
--[Usage](#usage)
--[Testing](#testing)
--[License](#license)
--[Copyright](#copyright)
+- [Technologies used](#technologies-used)
+- [Key files in the repository](#key-files-in-the-repository)
+- [Packages used](#packages-used)
+- [Programming Competencies](#programming-competencies)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Testing](#testing)
+- [License](#license)
+- [Copyright](#copyright)
 
 
 
