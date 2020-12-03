@@ -136,6 +136,15 @@ const questions = [
       
       },
 
+// User story
+      {
+        type: 'editor',
+        name: 'user_story',
+        message: 'Please provide a user story',
+     
+      
+      },
+
     // Installation 
     {
         type: 'input',
