@@ -5,11 +5,14 @@ function generate_markdown(data) {
 ## About the Project
 ${data.about_project}
 
-## Contact Programmer
+## Contact Programmer for questions
 
 ${data.programmer}<br />
-${data.email}<br />
-${data.author_position}
+${data.author_position}<br />
+[${data.gh_username}](https://github.com/${data.gh_username})<br />
+${data.email}
+
+
 
 ## Contents
 
@@ -28,7 +31,7 @@ ${data.author_position}
 
 ## Technologies used
 
-${data.techs_used}
+![Javascript Badge](https://img.shields.io/badge/JavaScript-black?style=for-the-badge&logo=JavaScript)
 
 ## Packages used
 
