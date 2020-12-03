@@ -23,8 +23,9 @@ ${data.author_position}
 -[License](#license)
 -[Copyright](#copyright)
 
-\`\`\`
+
 ## User Story
+\`\`\`
 ${data.user_story}
 \`\`\`
 
