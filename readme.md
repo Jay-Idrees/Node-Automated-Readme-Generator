@@ -3,13 +3,15 @@
 ## About the Project
 This project is a command line interface application that prompts the user to answer a series of brief questions, regarding a project and then generates a high quality readme file using Node.js and using the package inquirer. I developed this application during the third week of the coding bootcamp experience at Columbia University, NY. Date of publication: 11/01/2020
 
+[Watch a demonstration of the app functionality](https://youtu.be/y7a85lrwrMw)
+
 ## Contact Programmer for questions
 
 Jay J. Idrees, MD, MPH<br />
 Full-Stack Software Engineer<br />
 [JIDREES](https://github.com/jidrees) ![Github](http://img.shields.io/badge/github-black?style=flat&logo=github)<br />
-**Email:**jidrees@live.com <br />
-[Watch demonstration of the app](https://youtu.be/y7a85lrwrMw)
+** Email: ** jidrees@live.com <br />
+
 
 
 ## Contents
