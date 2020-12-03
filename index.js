@@ -55,7 +55,7 @@ const questions = [
         type: 'input',
         name: 'author_position',
         message: "Please enter the author's current position",
-        default:'Full-Stack Web and Software Developer'
+        default:'Full-Stack Software Engineer'
       },
 
     // Obtaining information regarding the technologies Used in the project- using checkboxes

@@ -7,9 +7,9 @@ ${data.about_project}
 
 ## Contact Programmer
 
-${data.programmer}
-${data.email}
-${data.author_position}
+${data.programmer}<\br>
+${data.email}\
+${data.author_position}<\br>
 
 ## Contents
 
