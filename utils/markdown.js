@@ -12,7 +12,7 @@ ${data.email}
 ${data.author_position}
 
 ## Contents
--[User Story](#user-story)
+
 -[Technologies used](#technologies-used)
 -[Key files in the repository](#key-files-in-the-repository)
 -[Packages used](#packages-used)
@@ -24,10 +24,7 @@ ${data.author_position}
 -[Copyright](#copyright)
 
 
-## User Story
-\`\`\`
-${data.user_story}
-\`\`\`
+
 
 ## Technologies used
 
