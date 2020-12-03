@@ -9,7 +9,7 @@ Jay J. Idrees, MD, MPH<br />
 Full-Stack Software Engineer<br />
 [JIDREES](https://github.com/jidrees) ![Github](http://img.shields.io/badge/github-black?style=flat&logo=github)<br />
 jidrees@live.com
-
+[Watch demonstration of the app](https://youtu.be/y7a85lrwrMw)
 
 
 ## Contents
@@ -27,9 +27,9 @@ jidrees@live.com
 
 
 ## User Story
-```
-I am a busy web developer and I would like an app that can simplify the process of generating a high quality readme file.
-```
+
+I am a developler and I would like an app that can simplify the process of generating a high quality readme.
+
 
 
 ## Technologies used
@@ -46,20 +46,33 @@ I am a busy web developer and I would like an app that can simplify the process 
 Inquirer
 
 ## Applied Programming Skills
+
 This project demonstrates command over the following programing skills: 
-- Using command terminal and the Node NPM package Inquirer to generate an automated readme file. Utilizing various node packages.
+
+- Using command terminal and the Node NPM package Inquirer to generate an automated readme file. 
+
 - Using gitignore to prevent node modules from being uploaded into the git repository.
+
 - Creating table of contents in the readme file using a markdown function.
-- Obtaining tags for licenses and implantin them into the readme file automatically.
+
+- Customizing tags for licenses and technologies in a readme.
+
 - Understanding the various forms of inputs available via inquirer.
+
 - Notice how the index.js file utilized a variety of prompt options for data input including 'input' 'checkbox' 'expandable choices' 'list' 'editor box' and 'password'
+
 - Notice the use of "default" values as starting text for a quick modifiation of a readme file and "validate" to check that the user inputs a value.
+
 - Demonstrates understanding regarding initilaiztion with npm init specifying web and developer dependencies in package.jason
+
 - Demonstrates understanding about the npm commands for installation of packages, testing and running the application
 Skills in pseudocoding.
+
 - Application concepts regarding template literals and string-interpolation.
 Using git for version control.
-- Writing file in Node.js.
+
+- Writing a readme file using Node.js.
+
 
 
 ## Key files in the repository
@@ -70,6 +83,7 @@ index.js
 ## Installation
 
 For installation of the dependencies, please run the following command in the terminal
+
 ```
 npm install
 ```

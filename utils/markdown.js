@@ -29,9 +29,9 @@ ${data.email}
 
 
 ## User Story
-\`\`\`
+
 ${data.user_story}
-\`\`\`
+
 
 
 ## Technologies used
@@ -68,6 +68,7 @@ ${data.user_story}
 ${data.packages_used}
 
 ## Applied Programming Skills
+
 ${data.skills_list}
 
 ## Key files in the repository
@@ -78,6 +79,7 @@ ${data.file_list}
 ## Installation
 
 For installation of the dependencies, please run the following command in the terminal
+
 \`\`\`
 ${data.to_install}
 \`\`\`
