@@ -7,13 +7,14 @@ This project is a command line interface application that prompts the user to an
 
 Jay J. Idrees, MD, MPH<br />
 Full-Stack Software Engineer<br />
-![Github](http://img.shields.io/badge/github-black?style=flat&logo=github) [JIDREES](https://github.com/jidrees)  <br />
-Email: jidrees@live.com
+[JIDREES](https://github.com/jidrees) ![Github](http://img.shields.io/badge/github-black?style=flat&logo=github)<br />
+jidrees@live.com
 
 
 
 ## Contents
 
+- [User Story](#user-story)
 - [Technologies used](#technologies-used)
 - [Key files in the repository](#key-files-in-the-repository)
 - [Packages used](#packages-used)
@@ -25,52 +26,50 @@ Email: jidrees@live.com
 - [Copyright](#copyright)
 
 
+## User Story
+```
+I am a busy web developer and I would like an app that can simplify the process of generating a high quality readme file.
+```
 
 
 ## Technologies used
 
 ![Javascript](https://img.shields.io/badge/JavaScript-black?style=for-the-badge&logo=JavaScript)
 
-![Bootstrap](https://img.shields.io/badge/Bootstrap-blueviolet?style=for-the-badge&logo=bootstrap)
-
 ![Node](https://img.shields.io/badge/Node-green?style=for-the-badge&logo=Node.js)
 
-![HTML](https://img.shields.io/badge/HTML-informational?style=for-the-badge&logo=html5)
-
-![JQUERY](https://img.shields.io/badge/jquery-purple?style=for-the-badge&logo=jquery)
-
-![CSS](https://img.shields.io/badge/css-darkgreen?style=for-the-badge&logo=css3)
-
-![SQL](https://img.shields.io/badge/MYSQL-darkblue?style=for-the-badge&logo=sqlite)
-
-![MongoDB](http://img.shields.io/badge/mongo-dB-black?style=for-the-badge&logo=mongodb)
-
 ![NPM](http://img.shields.io/badge/npm-yellow?style=for-the-badge&logo=NPM)
-
-![React](http://img.shields.io/badge/React-black?style=for-the-badge&logo=react)
-
-![Heroku](http://img.shields.io/badge/Heroku-purple?style=for-the-badge&logo=heroku)
-
-![webpack](http://img.shields.io/badge/webpack-grey?style=for-the-badge&logo=webpack)
-
-![EXPRESS.js](http://img.shields.io/badge/express-JS-yellow?style=for-the-badge&logo=experts-exchange)
 
 
 ## Packages used
 
 Inquirer
 
-## Programming Competencies
+## Applied Programming Skills
+This project demonstrates command over the following programing skills: 
+- Using command terminal and the Node NPM package Inquirer to generate an automated readme file. Utilizing various node packages.
+- Using gitignore to prevent node modules from being uploaded into the git repository.
+- Creating table of contents in the readme file using a markdown function.
+- Obtaining tags for licenses and implantin them into the readme file automatically.
+- Understanding the various forms of inputs available via inquirer.
+- Notice how the index.js file utilized a variety of prompt options for data input including 'input' 'checkbox' 'expandable choices' 'list' 'editor box' and 'password'
+- Notice the use of "default" values as starting text for a quick modifiation of a readme file and "validate" to check that the user inputs a value.
+- Demonstrates understanding regarding initilaiztion with npm init specifying web and developer dependencies in package.jason
+- Demonstrates understanding about the npm commands for installation of packages, testing and running the application
+Skills in pseudocoding.
+- Application concepts regarding template literals and string-interpolation.
+Using git for version control.
+- Writing file in Node.js.
 
 
 ## Key files in the repository
 
-index.html
+index.js
 
 
 ## Installation
 
-For installation of the dependies, please run the following command in the terminal
+For installation of the dependencies, please run the following command in the terminal
 ```
 npm install
 ```
@@ -98,7 +97,7 @@ npm test
 ![License badge](https://img.shields.io/badge/license-MIT-blue.svg)
 
 
-## Copyright 
+## Credits and Copyright 
 Copytight 2020- Present. Jay Idrees
 
 

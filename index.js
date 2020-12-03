@@ -141,7 +141,8 @@ const questions = [
       {
         type: 'editor',
         name: 'user_story',
-        message: 'Please provide a user story',
+        message:'Please enter text for user story' ,
+        default:'I am a developler and I would like an app that can simplify the process of generating a high quality readme.'
      
       
       },
