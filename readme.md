@@ -30,7 +30,7 @@ Email:jidrees@live.com <br />
 
 ## User Story
 
-I am a developler and I would like an app that can simplify the process of generating a high quality readme.
+I am a developler and I would like an app that can simplify the process of generating a high quality readme. A good readme will include sections of about me, a contents list, using badges for the technologies used, any packages used, applied programming skills/challanges in the completion of the project. Any instructions for installation of the app, dependencies, any testing. It should also provide information regarding the credits and copyright
 
 
 
@@ -53,7 +53,7 @@ This project demonstrates command over the following programing skills:
 
 - Using command terminal and the Node NPM package Inquirer to generate an automated readme file. 
 
-- Using gitignore to prevent node modules from being uploaded into the git repository.
+- Using gitignore to prevent node modules from being uploaded into a git repository.
 
 - Creating table of contents in the readme file using a markdown function.
 
